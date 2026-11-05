@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Open in Google Earth",
+  "version": "0.1.0",
+  "description": "Open selected coordinates, addresses, or place names directly in Google Earth.",
+  "permissions": [
+    "contextMenus"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{4d22bb6b-6b2a-4f4d-a4fd-a92320e0c2d1}",
+      "strict_min_version": "140.0",
+      "data_collection_permissions": {
+        "required": [
+          "websiteContent"
+        ]
+      }
+    }
+  }
+}
